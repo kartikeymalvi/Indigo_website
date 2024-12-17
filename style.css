@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+* nav {
+  width: 100%;
+  position: fixed;
+}
+* nav .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+* nav .navbar_right a {
+  text-decoration: none;
+}
+* nav .navbar_right a img {
+  height: 14px;
+}
+* nav .navbar_middle {
+  display: flex;
+  gap: 30px;
+  font-size: 6px;
+}
+* nav .navbar_middle .navbar_middle1 {
+  display: flex;
+  gap: 10px;
+}
+* nav .navbar_middle .navbar_middle1 ul li {
+  list-style: none;
+}
+* nav .navbar_middle .navbar_middle1 a {
+  text-decoration: none;
+  color: black;
+}
+* nav .navbar_left {
+  display: flex;
+  height: 14px;
+  width: 35px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+* nav .navbar_left .navbar_button {
+  margin-right: 2px;
+  height: 10px;
+  width: 25px;
+  font-weight: 500;
+  font-size: 6px;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+}
+* nav .navbar_left .navbar_button:hover {
+  color: red;
+  transition: 0.3s;
+  cursor: pointer;
+}
+* nav .navbar_left .navbar_drop {
+  font-size: 5px;
+  border: none;
+}
+
+body {
+  background-image: url(/img/pexels-saturnus99-19655193.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
