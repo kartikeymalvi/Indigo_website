@@ -6,6 +6,9 @@
   font-weight: 300;
   font-style: normal;
 }
+* header {
+  height: 50px;
+}
 * nav {
   width: 100%;
   position: fixed;
@@ -14,59 +17,65 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 50px;
 }
-* nav .navbar_right a {
+* nav .navbar:hover {
+  background-color: whitesmoke;
+}
+* .navbar_right a {
   text-decoration: none;
 }
-* nav .navbar_right a img {
-  height: 14px;
+* .navbar_right a img {
+  height: 30px;
+  margin-top: 4px;
 }
-* nav .navbar_middle {
+* .navbar_middle {
   display: flex;
-  gap: 30px;
-  font-size: 6px;
+  gap: 20px;
+  font-size: 15px;
 }
-* nav .navbar_middle .navbar_middle1 {
+* .navbar_middle .navbar_middle1 {
   display: flex;
   gap: 10px;
 }
-* nav .navbar_middle .navbar_middle1 ul li {
+* .navbar_middle .navbar_middle1 ul li {
   list-style: none;
 }
-* nav .navbar_middle .navbar_middle1 a {
+* .navbar_middle .navbar_middle1 a {
   text-decoration: none;
-  color: black;
+  color: rgb(37, 37, 39);
   font-weight: 500;
 }
-* nav .navbar_middle .navbar_middle1 a:hover {
+* .navbar_middle .navbar_middle1 a:hover {
   color: red;
   transition: 0.3s;
 }
-* nav .navbar_left {
+* .navbar_left {
   display: flex;
-  height: 14px;
-  width: 35px;
+  height: 20px;
+  width: 65px;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
 }
-* nav .navbar_left .navbar_button {
+* .navbar_left .navbar_button {
   margin-right: 2px;
-  height: 10px;
-  width: 25px;
+  height: 25px;
+  width: 90px;
   font-weight: 500;
-  font-size: 6px;
+  font-size: 15px;
   text-align: center;
   border: none;
   border-radius: 12px;
 }
-* nav .navbar_left .navbar_button:hover {
+* .navbar_left .navbar_button:hover {
   color: red;
+  background-color: skyblue;
   transition: 0.3s;
   cursor: pointer;
 }
-* nav .navbar_left .navbar_drop {
-  font-size: 5px;
+* .navbar_left .navbar_drop {
+  font-size: 15px;
   border: none;
 }
 
@@ -74,4 +83,119 @@ body {
   background-image: url(/img/pexels-saturnus99-19655193.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+body .main_heading h1 {
+  font-size: 70px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body .main_heading h1:hover {
+  color: rgb(96, 16, 146);
+}
+body .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .content .book_flight {
+  margin-top: 50px;
+}
+body .content .book_flight h1 {
+  font-size: 18px;
+  font-weight: 400;
+  width: 500px;
+  border-radius: 10px 0px 0px 0px;
+  text-align: center;
+  color: white;
+  background-color: rgb(41, 106, 41);
+}
+body .content .book_flight h1:hover {
+  background-color: black;
+  color: white;
+}
+body .content .book_flight .input_box {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+body .content .book_flight .input_box .from #input1 {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+}
+body .content .book_flight .input_box .from h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .content .book_flight .input_box .from h5:hover {
+  color: rgba(70, 70, 179, 0.533);
+}
+body .content .book_flight .input_box .to #input2 {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+}
+body .content .book_flight .input_box .to h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .content .book_flight .input_box .to h5:hover {
+  color: rgba(70, 70, 179, 0.533);
+}
+body .content .book_flight .input_box .departure #input3 {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+}
+body .content .book_flight .input_box .departure h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .content .book_flight .input_box .departure h5:hover {
+  color: rgba(70, 70, 179, 0.533);
+}
+body .content .book_flight .input_box .return #input4 {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+}
+body .content .book_flight .input_box .return h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .content .book_flight .input_box .return h5:hover {
+  color: rgba(70, 70, 179, 0.533);
+}
+body .button_submit {
+  text-align: center;
+}
+body .button_submit button {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+body .button_submit button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,9 @@
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
+  header{
+    height: 50px;
+  }
 
   nav {
     width: 100%;
@@ -14,82 +17,237 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-    }
+      height: 50px;
 
-    .navbar_right a {
-      text-decoration: none;
-      img {
-        height: 14px;
-      }
-    }
-    .navbar_middle {
-      display: flex;
-      gap: 30px;
-      font-size: 6px;
+      &:hover {
+        background-color: whitesmoke;
+        
       
-
-      .navbar_middle1 {
-        display: flex;
-        gap: 10px;
-
-       
-
-        ul {
-          li {
-            list-style: none;
-          }
-        }
-        a {
-          text-decoration: none;
-          color: black;
-           font-weight: 500;
-        }
-      }
-       .navbar_middle1 a:hover{
-          color: red;
-          transition: 0.3s;
-        }
-    }
-    .navbar_left {
-      display: flex;
-          
-       height: 14px;
-        width: 35px;
-       border-radius: 12px;
-       justify-content: center;
-       align-items: center;
-
-
-      .navbar_button {
-        
-        margin-right: 2px;
-        height: 10px;
-        width: 25px;
-        font-weight: 500;
-        font-size: 6px;
-        text-align: center;
-         
-        border: none;
-        border-radius: 12px;
-        
-      }
-      .navbar_button:hover{
-          color: red;
-          transition: 0.3s;
-          cursor: pointer;
-        }
-      .navbar_drop {
-        font-size: 5px;
-        
-         
-        border: none;
       }
     }
   }
+
+  .navbar_right a {
+    text-decoration: none;
+    img {
+      height: 30px;
+      margin-top: 4px;
+
+    }
+  }
+  .navbar_middle {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+
+    .navbar_middle1 {
+      display: flex;
+      gap: 10px;
+
+      ul {
+        li {
+          list-style: none;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: rgb(37, 37, 39);
+        font-weight: 500;
+      }
+    }
+    .navbar_middle1 a:hover {
+      color: red;
+      transition: 0.3s;
+    }
+  }
+  .navbar_left {
+    display: flex;
+
+    height: 20px;
+    width: 65px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+    .navbar_button {
+      margin-right: 2px;
+      height: 25px;
+      width: 90px;
+      font-weight: 500;
+      font-size: 15px;
+      text-align: center;
+
+      border: none;
+      border-radius: 12px;
+    }
+    .navbar_button:hover {
+      color: red;
+      background-color: skyblue;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .navbar_drop {
+      font-size: 15px;
+
+      border: none;
+    }
+  }
 }
-body{
+
+body {
   background-image: url(/img/pexels-saturnus99-19655193.jpg);
   background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-size: cover;
+
+
+  .main_heading {
+    h1{
+      font-size: 70px;
+       margin-top: 30px;
+       text-align: center;
+         font-family: "Dancing Script", serif;
+        font-optical-sizing: auto;
+         font-weight: 400;
+          font-style: normal;
+          &:hover{
+            color: rgb(96, 16, 146);
+          }
+    }
+
+  }
+  .content{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+          
+  .book_flight{
+         
+    // border: 1px solid black;
+     
+     margin-top: 50px;
+      h1{
+        font-size: 18px;
+      font-weight: 400;
+          width: 500px;
+          border-radius: 10px 0px 0px 0px;
+          text-align: center;
+          color: white;
+          background-color: rgb(41, 106, 41);
+          &:hover{
+            background-color: black;
+            color: white;
+          }
+      }
+       
+      .input_box{
+         margin-top: 10px;
+        display: flex;
+        gap: 10px;
+       .from{
+        
+        #input1{
+          height: 50px;
+          width: 200px;
+            border: none;
+            border-radius: 5px 5px 5px 5px;
+              font-size: 16px;
+              
+             
+        }
+        h5{
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          
+          &:hover{
+            color: rgba(70, 70, 179, 0.533);
+          }
+        }
+       }
+       .to{
+         #input2{
+          height: 50px;
+          width: 200px;
+          border: none;
+            border-radius: 5px 5px 5px 5px;
+              font-size: 16px;
+        }
+        h5{
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          
+          &:hover{
+            color: rgba(70, 70, 179, 0.533);
+          }
+        }
+
+       }
+       .departure{
+         #input3{
+          height: 50px;
+          width: 200px;
+          border: none;
+            border-radius: 5px 5px 5px 5px;
+              font-size: 16px;
+        }
+        h5{
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          
+          &:hover{
+            color: rgba(70, 70, 179, 0.533);
+          }
+        }
+
+       }
+       .return{
+         #input4{
+          height: 50px;
+          width: 200px;
+          border: none;
+            border-radius: 5px 5px 5px 5px;
+              font-size: 16px;
+        }
+        h5{
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          
+          &:hover{
+            color: rgba(70, 70, 179, 0.533);
+          }
+        }
+
+       }
+
+      }
+     
+  }
+   
+}
+.button_submit{
+              text-align: center;
+
+        button{
+          margin-top: 10px;
+             font-size: 16px;
+             font-weight: 500;
+             border: none;
+             border-radius: 20px;
+             height: 40px;
+          width: 100px;
+          &:hover{
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+          }
+        }
+      }
+
 }
