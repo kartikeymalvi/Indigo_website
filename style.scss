@@ -6,7 +6,7 @@
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
-  header{
+  header {
     height: 50px;
   }
 
@@ -21,8 +21,6 @@
 
       &:hover {
         background-color: whitesmoke;
-        
-      
       }
     }
   }
@@ -32,7 +30,6 @@
     img {
       height: 30px;
       margin-top: 4px;
-
     }
   }
   .navbar_middle {
@@ -99,155 +96,167 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-
   .main_heading {
-    h1{
+    h1 {
       font-size: 70px;
-       margin-top: 30px;
-       text-align: center;
-         font-family: "Dancing Script", serif;
-        font-optical-sizing: auto;
-         font-weight: 400;
-          font-style: normal;
-          &:hover{
-            color: rgb(96, 16, 146);
-          }
-    }
-
-  }
-  .content{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-          
-  .book_flight{
-         
-    // border: 1px solid black;
-     
-     margin-top: 50px;
-      h1{
-        font-size: 18px;
+      margin-top: 30px;
+      text-align: center;
+      font-family: "Dancing Script", serif;
+      font-optical-sizing: auto;
       font-weight: 400;
-          width: 500px;
-          border-radius: 10px 0px 0px 0px;
-          text-align: center;
-          color: white;
-          background-color: rgb(41, 106, 41);
-          &:hover{
-            background-color: black;
-            color: white;
-          }
+      font-style: normal;
+      &:hover {
+        color: rgb(96, 16, 146);
       }
-       
-      .input_box{
-         margin-top: 10px;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .book_flight {
+      // border: 1px solid black;
+
+      margin-top: 50px;
+      h1 {
+        font-size: 18px;
+        font-weight: 400;
+        width: 200px;
+        border-radius: 10px 0px 0px 0px;
+        text-align: center;
+        color: white;
+        background-color: rgb(11, 103, 139);
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+
+      .input_box {
+        margin-top: 10px;
         display: flex;
+        flex-direction: row;
+        align-items: center;
+
         gap: 10px;
-       .from{
-        
-        #input1{
-          height: 50px;
-          width: 200px;
+        .from {
+          #input1 {
+            height: 50px;
+            width: 200px;
             border: none;
             border-radius: 5px 5px 5px 5px;
-              font-size: 16px;
-              
-             
-        }
-        h5{
-          font-size: 15px;
-          text-transform: uppercase;
-          font-weight: 500;
+            font-size: 16px;
+          }
+          h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
 
-          
-          &:hover{
-            color: rgba(70, 70, 179, 0.533);
+            &:hover {
+              color: rgba(70, 70, 179, 0.533);
+            }
           }
         }
-       }
-       .to{
-         #input2{
-          height: 50px;
-          width: 200px;
-          border: none;
+        .to {
+          #input2 {
+            height: 50px;
+            width: 200px;
+            border: none;
             border-radius: 5px 5px 5px 5px;
-              font-size: 16px;
-        }
-        h5{
-          font-size: 15px;
-          text-transform: uppercase;
-          font-weight: 500;
+            font-size: 16px;
+          }
+          h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
 
-          
-          &:hover{
-            color: rgba(70, 70, 179, 0.533);
+            &:hover {
+              color: rgba(70, 70, 179, 0.533);
+            }
           }
         }
-
-       }
-       .departure{
-         #input3{
-          height: 50px;
-          width: 200px;
-          border: none;
+        .departure {
+          #input3 {
+            height: 50px;
+            width: 200px;
+            border: none;
             border-radius: 5px 5px 5px 5px;
-              font-size: 16px;
-        }
-        h5{
-          font-size: 15px;
-          text-transform: uppercase;
-          font-weight: 500;
+            font-size: 16px;
+          }
+          h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
 
-          
-          &:hover{
-            color: rgba(70, 70, 179, 0.533);
+            &:hover {
+              color: rgba(70, 70, 179, 0.533);
+            }
           }
         }
-
-       }
-       .return{
-         #input4{
-          height: 50px;
-          width: 200px;
-          border: none;
+        .return {
+          #input4 {
+            height: 50px;
+            width: 200px;
+            border: none;
             border-radius: 5px 5px 5px 5px;
-              font-size: 16px;
-        }
-        h5{
-          font-size: 15px;
-          text-transform: uppercase;
-          font-weight: 500;
+            font-size: 16px;
+          }
+          h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
 
-          
-          &:hover{
-            color: rgba(70, 70, 179, 0.533);
+            &:hover {
+              color: rgba(70, 70, 179, 0.533);
+            }
           }
         }
+        .passengers {
+          #input5 {
+            height: 50px;
+            width: 200px;
+            border: none;
+            border-radius: 5px 5px 5px 5px;
+            font-size: 16px;
+            text-align: center;
+          }
+          h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
 
-       }
-
+            &:hover {
+              color: rgba(70, 70, 179, 0.533);
+            }
+          }
+        }
       }
-     
+    }
   }
-   
-}
-.button_submit{
-              text-align: center;
+  .button_submit {
+    text-align: center;
+     a{
+      text-decoration: none;
+       font-weight: 300;
+       color: rgb(54, 54, 165);
+     }
 
-        button{
-          margin-top: 10px;
-             font-size: 16px;
-             font-weight: 500;
-             border: none;
-             border-radius: 20px;
-             height: 40px;
-          width: 100px;
-          &:hover{
-            background-color: black;
-            color: white;
-            transition: 0.3s;
-          }
-        }
+    button {
+      
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      border-radius: 20px;
+      height: 40px;
+      width: 100px;
+      &:hover {
+        background-color: black;
+        color: white;
+        transition: 0.3s;
       }
-
+    }
+  }
 }

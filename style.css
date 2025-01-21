@@ -98,6 +98,7 @@ body .main_heading h1:hover {
 }
 body .content {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -107,11 +108,11 @@ body .content .book_flight {
 body .content .book_flight h1 {
   font-size: 18px;
   font-weight: 400;
-  width: 500px;
+  width: 200px;
   border-radius: 10px 0px 0px 0px;
   text-align: center;
   color: white;
-  background-color: rgb(41, 106, 41);
+  background-color: rgb(11, 103, 139);
 }
 body .content .book_flight h1:hover {
   background-color: black;
@@ -120,6 +121,8 @@ body .content .book_flight h1:hover {
 body .content .book_flight .input_box {
   margin-top: 10px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 10px;
 }
 body .content .book_flight .input_box .from #input1 {
@@ -182,8 +185,29 @@ body .content .book_flight .input_box .return h5 {
 body .content .book_flight .input_box .return h5:hover {
   color: rgba(70, 70, 179, 0.533);
 }
+body .content .book_flight .input_box .passengers #input5 {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+  text-align: center;
+}
+body .content .book_flight .input_box .passengers h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .content .book_flight .input_box .passengers h5:hover {
+  color: rgba(70, 70, 179, 0.533);
+}
 body .button_submit {
   text-align: center;
+}
+body .button_submit a {
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(54, 54, 165);
 }
 body .button_submit button {
   margin-top: 10px;
