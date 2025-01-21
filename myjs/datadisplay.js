@@ -8,8 +8,8 @@ async function dataShow() {
                         <th>To</th>
                         <th>Departure</th>
                         <th>Return</th>
-                        <th>price</th>
-                        <th>Actions</th>
+                        
+                      
                         
 
                     </tr>`;
@@ -26,21 +26,15 @@ async function dataShow() {
                         <td align="center">${item.to}</td>
                         <td align="center">${item.departure}</td>
                         <td align="center">${item.return}</td>
-                        <td align="center">${item.price}</td>
-                        <td align="center">
-                          <button onclick="bookTicket()">Book Now</button>
-                        </td>
+                       
+                       
                       </tr>`;
   });
 
   table += "</table>";
   document.getElementById("demo").innerHTML = table;
 }
-function bookTicket(){
-     prompt("enter your name")
-     prompt("enter passengers details")
-      alert("flight booked")
-}
+
 
 
 dataShow();

@@ -6,75 +6,35 @@
       "to": "delhi",
       "departure": "2025-01-24",
       "return": "2025-01-25",
-      "price":"8564"
+      "price": "8564"
     },
     {
-      "id": "dd99",
+      "id": "1e50",
       "from": "bhopal",
-      "to": "indore",
-      "departure": "2025-01-31",
-      "return": "2025-02-01",
-      "price":"8564"
+      "to": "dehli",
+      "departure": "2025-01-24",
+      "return": "2025-01-25"
     },
     {
-      "id": "d8ec",
-      "from": "bhopal",
-      "to": "indore",
-      "departure": "2025-01-31",
-      "return": "2025-02-01",
-      "price":"8564"
-
+      "id": "f694",
+      "from": "",
+      "to": "",
+      "departure": "",
+      "return": ""
     },
     {
-      "id": "8d3f",
-      "from": "bhopal",
-      "to": "indore",
-      "departure": "2025-01-31",
-      "return": "2025-02-01",
-      "price":"8564"
-    },
-    {
-      "id": "85e5",
-      "from": "goa",
-      "to": "bhopal",
+      "id": "31ed",
+      "from": "dehli",
+      "to": "dubai",
       "departure": "2025-01-22",
-      "return": "2025-01-24",
-       "price":"8564"
+      "return": "2025-01-23"
     },
     {
-      "id": "f6da",
-      "from": "goa",
-      "to": "bhopal",
-      "departure": "2025-01-22",
-      "return": "2025-01-24",
-       "price":"4589"
-    },
-    {
-      "id": "2b9f",
-      "flightId": "1",
+      "id": "831c",
       "from": "bhopal",
-      "to": "delhi",
-      "departure": "2025-01-24",
-      "return": "2025-01-25",
-      "price":"2589"
-    },
-    {
-      "id": "8172",
-      "flightId": "1",
-      "from": "bhopal",
-      "to": "delhi",
-      "departure": "2025-01-24",
-      "return": "2025-01-25",
-      "price":"2589"
-    },
-    {
-      "id": "db9e",
-      "flightId": "1",
-      "from": "bhopal",
-      "to": "delhi",
-      "departure": "2025-01-24",
-      "return": "2025-01-25",
-      "price":"8564"
+      "to": "goa",
+      "departure": "2025-01-06",
+      "return": "2025-05-06"
     }
   ]
 }
