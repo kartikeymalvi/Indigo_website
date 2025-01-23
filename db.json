@@ -35,6 +35,13 @@
       "to": "goa",
       "departure": "2025-01-06",
       "return": "2025-05-06"
+    },
+    {
+      "id": "4fd3",
+      "from": "bhopal",
+      "to": "shimla",
+      "departure": "2025-01-23",
+      "return": "2025-01-31"
     }
   ]
 }
