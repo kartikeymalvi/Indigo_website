@@ -582,7 +582,21 @@ body {
       transform: translate(-377px, 7px)
     }
     body .mid_contents{
+      
       width: 56%;
+      .headings{
+        h1{
+            text-align: center;
+        }
+        
+      }
+      .banners{
+        display: grid;
+         grid-template-columns: 1fr 1fr;
+           position: relative;
+            left: 150px;
+          align-items: center;
+      }
     }
     body .package .heading p{
       font-size: 13px;
